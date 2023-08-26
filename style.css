@@ -4,8 +4,17 @@
 
 /*** Recipe pages ***/
 
+/*
+    Notes on color order: 
+    1. recipes: 1st darkest
+    2. body: 2nd darkest
+    3. links: 3rd darkest
+    4. copyright: 4th darkest
+
+*/
+
 body {
-    background-color: rgb(226, 199, 153);
+    background-color: rgb(236, 205, 180);
     margin: 0;
     padding: 0;
 }
@@ -36,8 +45,8 @@ body {
     text-align: center;
     border-radius: 8px;
     text-decoration: none;
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+    background-color: rgb(254, 161, 161);
+    color: rgb(30, 30, 30);
 }
 
 #home-btn:hover {
@@ -58,16 +67,17 @@ body {
 
 /* Recipes div wrap (black border and biege background) */
 .recipes {
+    background-color: rgb(254, 161, 161);
+    color: rgb(60,60,60);
     padding-left: 32px;
     padding-bottom: 96px;
-    background-color: rgb(192, 130, 97);
     margin-top: 120px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
 
 #links {
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(240, 237, 212);
     margin-top: 400px;
     height: 400px;
     overflow: hidden;
