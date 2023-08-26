@@ -3,11 +3,58 @@
     <head>
         <meta lang="en" charset="UTF-8">
         <title>Odin Recipes</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="home.css">
     </head>
 
+    <!-- sandwich: https://www.allrecipes.com/recipe/23891/grilled-cheese-sandwich/ -->
+
     <body>
-        <h1>Odin Recipes</h1>
-        <a href="https://www.allrecipes.com/recipe/52734/awesome-pasta-salad/">Awesome Pasta Salad</a>
-        <a href="https://www.allrecipes.com/recipe/23600/worlds-best-lasagna/">Worlds Best Lasagna</a>
+
+        <!-- White bg for home button-->
+        <div id="home-btn-bg"></div>
+
+        <!-- First center ONLY the div with flex, justify-content -->
+        <!-- Then, inside the anchor just use text-align to center the text -->
+        <p id="home">
+            <a id="home-btn" href="../index.html">Odin Recipes</a>
+        </p>
+
+        <div>
+            <div id="recipes-home">
+                <h1 id="home-h1">Odin Recipes List</h1>
+                <ul id="home-ul-wrap">
+                    <a  href="recipes/pancake.html">
+                        <img class="recipe-img" src="../images/pancake.jpg" alt ="picture of stacked pancakes covered in syrup on a plate">
+                    </a>
+                    <li class="home-list">
+                        <p><a class="home-list-links" href="recipes/pancake.html">Pancakes</a></p>
+                    </li>
+
+                    <a href="../recipes/sandwich.html">
+                        <img class="recipe-img" src="../images/sandwich.jpg" alt="picture of a grilled cheese sandwich on a plate">
+                    </a>
+                    <li class="home-list">
+                        <a class="home-list-links" href="recipes/sandwich.html">Grilled Cheese</a>
+                    </li>
+
+                    <a href="../recipes/pasta.html">
+                        <img class="recipe-img" src="../images/pasta.jpg" alt="picture of pasta fagioli on a plate">
+                    </a>
+                    <li class="home-list">
+                        <a class="home-list-links" href="recipes/pasta.html">Pasta Fagioli</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="links">
+
+        </div>
+
     </body>
+
+    <footer id="footer">
+        <p>Copyright @ 2023 by Cmesias</p>
+    </footer>
 </html>

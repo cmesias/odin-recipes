@@ -1,0 +1,48 @@
+
+/*** Applies only to Home Page ***/
+
+#home-h1 {
+    margin-top: 80px;
+}
+
+/* Recipes div wrap (black border and biege background) */
+#recipes-home {
+    background-color: rgb(192, 130, 97);
+    border-top: 1px solid black;
+    margin-top: 120px;
+    border-bottom: 1px solid black;
+}
+
+/* Recipe unordered recipe list wrap (removes bullet points from ul items) */
+#home-ul-wrap {
+    list-style-type: none;
+    padding: 32px 32px;
+    margin: 0;
+}
+
+/* Applies to all list items */
+.home-list {
+    padding-bottom: 100px;
+}
+
+/* Applies to list item links */
+.home-list-links {
+    text-decoration: none;
+    color: black;
+    padding: 32px 0px;
+    font-size: 200%;
+    padding: 0;             /* These make it so it doesnt affect the other list items below when expanding on hover */
+}
+
+/* List item link on hover */
+.home-list-links:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: rgb(245, 100, 56);
+}
+
+.recipe-img {
+    width: 300px;
+    border: 3px solid black;
+}
+
